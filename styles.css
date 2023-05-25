@@ -116,11 +116,28 @@ a {
 
 
 .sign-up {
-    display: flex;
-    align-items: center;
-
     margin: 80px;
     background-color: #3882f6;
     color: white;
     padding: 40px;
+    border-radius: 5px;
+    max-width: 1000px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.sign-up .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sign-up button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
